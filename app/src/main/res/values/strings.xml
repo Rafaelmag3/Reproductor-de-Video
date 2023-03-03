@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Reproductor de Video</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buscar">Buscar Video...</string>
+    <string name="tus_videos">Tus Videos:</string>
+    <string-array name="nombres_videos">
+        <item>arch</item>
+        <item>bunny_girl_senpai</item>
+        <item>bones_instrumental</item>
+        <item>kick_back</item>
+        <item>rude</item>
+        <item>maroon_5</item>
+        <item>esponja</item>
+        <item>flanders</item>
+        <item>francotirador</item>
+        <item>shorts</item>
+        <item>spiderverse</item>
+    </string-array>
+</resources>

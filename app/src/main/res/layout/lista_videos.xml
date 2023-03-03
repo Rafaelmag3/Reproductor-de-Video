@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_videos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+    <!-- Agregar una vista EditText para la barra de búsqueda -->
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/buscar"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="@drawable/border_oval"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tus_videos"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp">
+    </TextView>
+    <!-- Aquí va la lista de videos -->
+    <ListView
+        android:id="@+id/listview_videos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#606060"
+        android:dividerHeight="1dp"
+        android:clipToPadding="false" />
+</LinearLayout>
